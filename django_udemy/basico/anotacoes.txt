@@ -1,0 +1,13 @@
+'''
+pip install django
+
+django-admin startproject projeto .
+
+python manage.py startapp produto
+
+python manage.py runserver
+
+
+BASE_DIR / 'static'
+BASE_DIR / 'caminho'
+'''

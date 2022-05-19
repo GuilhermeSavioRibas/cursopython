@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>660</width>
+    <height>583</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Registro de Vendas</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="msg">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>30</y>
+      <width>441</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelImg">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>111</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../Users/Ribas/Documents/Vegas/logo.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>631</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="1">
+      <widget class="QPushButton" name="btnNovo">
+       <property name="text">
+        <string>Novo</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="btnIncluirProduto">
+       <property name="text">
+        <string>Incluir Produto</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Nome:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="inputNome">
+       <property name="focusPolicy">
+        <enum>Qt::StrongFocus</enum>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Bairro:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="inputBairro"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Produto:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="cbProdutos">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Monte seu Lanche</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veg Mutano</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veg Los Pollos</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Happy Dog</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veg King Tofu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veg Lanche Feliz</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veg Lisa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veg Picadinho</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veg Furioso</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veg Shaggy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Veg Bob</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>X-Veg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Batata Frita</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hambúrguer Congelado</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Coca-Cola</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Guaraná</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Hambúrguer:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="cbHamburguer">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Soja</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Grão de bico</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lentilha</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Beterraba</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Empanado</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Quantidade:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="inputQuantidade"/>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Tipo da Venda:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QComboBox" name="cbTipoDaVenda">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Delivery</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Retirada</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ifood</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>99food</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>Valor:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="inputValor"/>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Forma de Pagamento:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QComboBox" name="cbFormaDePagamento">
+       <item>
+        <property name="text">
+         <string/>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Débito</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Crédito</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dinheiro</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pix</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pic Pay</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Taxa de Entrega:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLineEdit" name="inputTaxaDeEntrega"/>
+     </item>
+     <item row="11" column="1">
+      <widget class="QPushButton" name="btnSalvar">
+       <property name="text">
+        <string>Salvar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>btnNovo</tabstop>
+  <tabstop>btnIncluirProduto</tabstop>
+  <tabstop>inputNome</tabstop>
+  <tabstop>inputBairro</tabstop>
+  <tabstop>cbProdutos</tabstop>
+  <tabstop>cbHamburguer</tabstop>
+  <tabstop>inputQuantidade</tabstop>
+  <tabstop>cbTipoDaVenda</tabstop>
+  <tabstop>inputValor</tabstop>
+  <tabstop>cbFormaDePagamento</tabstop>
+  <tabstop>inputTaxaDeEntrega</tabstop>
+  <tabstop>btnSalvar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
