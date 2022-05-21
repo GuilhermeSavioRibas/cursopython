@@ -9,8 +9,8 @@ from contextlib import contextmanager
 def conecta():
     conexao = pymysql.connect(
         host='127.0.0.1',
-        user='root',
-        password='',
+        user='cursopython',
+        password='cursopython@123',
         db='clientes',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -23,12 +23,12 @@ def conecta():
 
 
 # INSERE UM REGISTRO NA BASE DE DADOS
-with conecta() as conexao:
-    with conexao.cursor() as cursor:
-        sql = 'INSERT INTO clientes (nome, sobrenome, idade, peso) VALUES ' \
-              '(%s, %s, %s, %s)'
-        cursor.execute(sql, ('Jack', 'Monroe', 112, 220))
-        conexao.commit()
+# with conecta() as conexao:
+#     with conexao.cursor() as cursor:
+#         sql = 'INSERT INTO clientes (nome, sobrenome, idade, peso) VALUES ' \
+#               '(%s, %s, %s, %s)'
+#         cursor.execute(sql, ('Jack', 'Monroe', 112, 220))
+#         conexao.commit()
 
 # INSERE VÁRIOS REGISTROS NA BASE DE DADOS
 # with conecta() as conexao:

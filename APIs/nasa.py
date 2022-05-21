@@ -9,7 +9,7 @@ picture_of_the_day = json.loads(requisicao_apod.text)
 # asteróides
 # neo = json.loads(requisicao_neo.text)
 
-# imagem da Terra
+#  imagem da Terra
 # requisicao_earth = requests.get('https://api.nasa.gov/planetary/earth/imagery?lon=100.75&lat=1.5&date=2014-02-01'
 #                                 '&api_key=2f8mxhxiDehuaPd0pdKcrbqTL3FImUJLVi0VRQxo')
 # print(requisicao_earth.text)
