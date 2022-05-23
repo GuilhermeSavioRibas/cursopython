@@ -7,6 +7,10 @@ python manage.py startapp produto
 
 python manage.py runserver
 
+python manage.py migrate
+python manage.py makemigrations
+
+python manage.py createsuperuser
 
 BASE_DIR / 'static'
 BASE_DIR / 'caminho'
