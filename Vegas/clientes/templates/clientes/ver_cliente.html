@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{%block conteudo%}
+  <h1 class="mt-5">{{ cliente.nome }} {{ cliente.sobrenome }}</h1>
+    <dl>
+      <dt>ID</dt>
+      <dd>{{ cliente.id }}</dd>
+
+      <dt>Telefone</dt>
+      <dd>{{ cliente.telefone }}</dd>
+
+      <dt>Endereço</dt>
+      <dd>{{ cliente.endereco }}</dd>
+
+      <dt>Bairro</dt>
+      <dd>{{ cliente.bairro }}</dd>
+
+      <dt>Descrição</dt>
+      <dd>
+        {{ cliente.descricao }}
+      </dd>
+    </dl>
+{%endblock%}
